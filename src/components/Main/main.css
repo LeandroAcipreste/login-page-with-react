@@ -1,0 +1,26 @@
+.margin-left{
+    margin-left: 80px;
+}
+
+
+@media (max-width: 667px) {
+    .img-login{
+        display: none;
+    }
+
+    .margin-left{
+        margin-left: 0;
+    }
+    
+}
+
+@media (min-width: 668px) and (max-width: 1024px){
+    .img-login{
+        margin-top: 3rem;
+        width: 95%;
+    }
+
+    .margin-left{
+        margin-left: 0;
+    }
+}
