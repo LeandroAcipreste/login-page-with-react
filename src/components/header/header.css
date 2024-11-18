@@ -1,0 +1,11 @@
+.header{
+    background-image: url(/src/assets/image-michael-jordan.png);
+    background-position: 30% center;
+    background-size: cover;
+    height: 700px;
+}
+
+.header-box-img {
+    width: 500px;
+    height: 513px;
+}

@@ -1,21 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './formulario.css'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function LoginForm(){
     const [userName, setUserName] = useState('');
     const [password, setPassword] = useState('');
     const [rememberMe, setRememberMe] = useState(false)
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const login = {
-            Usuário:userName,
-            senha:password,
-            lembrar:rememberMe
-        }
-        console.log(login);
+
+        navigate('/home')
 
         setUserName('');
         setPassword('');

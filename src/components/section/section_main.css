@@ -1,0 +1,28 @@
+.section-main{
+    background-color: black;
+}
+
+.section-main-box{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.section-main-box-img{
+    padding-top: 0;
+    height: 500px;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+    object-fit: cover;
+    height: 300px;
+    }
+
+.carousel-caption {
+    bottom: 20px;
+    }
+
+.card {
+    border: none;
+    }
