@@ -9,3 +9,17 @@
     width: 500px;
     height: 513px;
 }
+
+@media (max-width: 375px) {
+    
+    .header{
+        height: 350px;
+    }
+
+    .header-box-img {
+        padding-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
+}

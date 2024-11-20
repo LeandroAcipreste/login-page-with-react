@@ -17,7 +17,7 @@
     filter: brightness(50%);
     object-fit: cover;
     height: 300px;
-    }
+}
 
 .carousel-caption {
     bottom: 20px;
@@ -26,3 +26,20 @@
 .card {
     border: none;
     }
+
+@media (max-width: 375px) {
+    
+    .section-main-box-img{
+        padding-top: 0;
+        height: 300px;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 200px;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+}
